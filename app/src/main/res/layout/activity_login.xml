@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="24dp"
+    android:background="@color/dark_black">
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="@string/app_name"
+        android:layout_gravity="center"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="24sp"
+        android:textColor="@color/dark_black"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:paddingTop="16dp"/>
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Email"
+        android:inputType="textEmailAddress"
+        android:padding="12dp"
+        android:background="@color/light_grey"
+        android:textColor="@color/dark_black"
+        android:textColorHint="@color/dark_black"
+        android:drawableStart="@drawable/ic_email"
+        android:drawablePadding="12dp"
+        android:layout_marginTop="12dp"/>
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Password"
+        android:inputType="textPassword"
+        android:padding="12dp"
+        android:background="@color/light_grey"
+        android:textColor="@color/dark_black"
+        android:textColorHint="@color/dark_black"
+        android:drawableStart="@drawable/ic_key"
+        android:drawablePadding="12dp"
+        android:layout_marginTop="8dp"/>
+    <Button
+        android:id="@+id/btnEmailLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SignIn with Email"
+        android:backgroundTint="@color/light_grey"
+        android:textColor="@color/dark_black"
+        android:layout_marginTop="12dp"/>
+    <TextView
+        android:id="@+id/tvToggleSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't have an account? Sign Up"
+        android:textColor="@color/pure_white"
+        android:layout_marginBottom="12dp"
+        android:layout_marginTop="12dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="OR"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/pure_white"
+        android:textAlignment="center"
+        android:textSize="20dp"/>
+    <ImageView
+        android:id="@+id/btnGoogleSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_google"
+        android:contentDescription="Sign in with Google"
+        android:padding="12dp"
+        android:background="?attr/selectableItemBackground"
+        android:scaleType="centerInside"
+        android:layout_marginTop="8dp"/>
+    <ImageView
+        android:id="@+id/btnAnonymousLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ic_anonymous"
+        android:contentDescription="Continue as Guest"
+        android:padding="12dp"
+        android:background="?attr/selectableItemBackground"
+        android:scaleType="centerInside"
+        android:backgroundTint="@color/pure_white"
+        android:layout_marginTop="8dp"/>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:layout_gravity="center"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>

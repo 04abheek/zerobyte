@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/dark_black">
+
+    <TextView
+        android:id="@+id/txtDownloadTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DOWNLOAD FILE"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@color/pure_white"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp"/>
+
+    <EditText
+        android:id="@+id/edtFileHash"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter File Hash"
+        android:textSize="20sp"
+        android:textColor="@color/dark_black"
+        android:background="@color/light_grey"
+        android:padding="15dp"
+        android:inputType="text"
+        android:layout_marginBottom="20dp"/>
+
+    <Button
+        android:id="@+id/btnDownloadFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download to Device"
+        android:backgroundTint="@color/light_grey"
+        android:textColor="@color/dark_black"
+        android:padding="10dp"
+        android:layout_marginTop="20dp" />
+
+    <Button
+        android:id="@+id/btnCheckIPFSStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check IPFS Status"
+        android:layout_marginBottom="12dp"
+        android:backgroundTint="@color/light_grey"
+        android:textColor="@color/dark_black"/>
+
+    <TextView
+        android:id="@+id/txtDownloadStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Status: "
+        android:textSize="20sp"
+        android:paddingTop="20sp"
+        android:textColor="@color/pure_white"/>
+
+</LinearLayout>

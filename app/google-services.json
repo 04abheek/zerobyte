@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "800887044729",
+    "project_id": "zerobyte-82ad4",
+    "storage_bucket": "zerobyte-82ad4.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:800887044729:android:a10d47e738fcdc646332a8",
+        "android_client_info": {
+          "package_name": "com.example.zerobyte"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "800887044729-488dbo9ejmiu1j200t6g6mejojduumu6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zerobyte",
+            "certificate_hash": "23c31432fe6c5ad01b7818312f36f0c4b655d73b"
+          }
+        },
+        {
+          "client_id": "800887044729-guqeqf1e17f0oe7e7ps9mo9p0kh39oga.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA42qsVKm7B20D9Z5aZuXDbVWAkXRWSxCw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "800887044729-guqeqf1e17f0oe7e7ps9mo9p0kh39oga.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

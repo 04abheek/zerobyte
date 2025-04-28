@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/dark_black"
+    android:padding="20dp">
+
+    <TextView
+        android:id="@+id/tvWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to ZeroByte"
+        android:textSize="24sp"
+        android:textColor="@color/pure_white"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="12dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/ip4/"
+            android:textColor="@color/pure_white" />
+
+        <EditText
+            android:id="@+id/etIPAddress"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="     IP ADDRESS"
+            android:textColor="@color/pure_white"
+            android:textColorHint="@color/light_grey" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="/tcp/"
+            android:textColor="@color/pure_white" />
+
+        <EditText
+            android:id="@+id/etPortNumber"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:hint="      PORT NO"
+            android:textColor="@color/pure_white"
+            android:textColorHint="@color/light_grey" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnCheckIPFSStatus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check IPFS Server Status"
+        android:backgroundTint="@color/light_grey"
+        android:textColor="@color/dark_black"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnUploadFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload File"
+        android:backgroundTint="@color/light_grey"
+        android:textColor="@color/dark_black"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnDownloadFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Download File"
+        android:backgroundTint="@color/light_grey"
+        android:textColor="@color/dark_black"
+        android:layout_marginBottom="12dp"/>
+
+    <Button
+        android:id="@+id/btnLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Logout"
+        android:backgroundTint="@color/light_grey"
+        android:textColor="@color/dark_black"/>
+
+</LinearLayout>
